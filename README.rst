@@ -44,5 +44,3 @@ Exit and re-run ubuntu and start!
 
 In Bash, open Windows File Explorer:
     * explorer.exe .
-
-
