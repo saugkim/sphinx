@@ -4,6 +4,8 @@
   I failed to create pdf file.  
   How to create pdf?
 
+https://seanzhengw.github.io/sphinx-pages/
+https://github.com/seanzhengw/sphinx-pages
 
 copy work from daler
 https://github.com/daler/sphinxdoc-test
