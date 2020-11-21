@@ -40,11 +40,11 @@ $ echo 'export DISPLAY=:0.0' >> ~/.bashrc <Br />
 
 
 | Exit and re-run ubuntu and start!
-| $ startxfce4
+ $ startxfce4
 
 
 | In Bash, open Windows File Explorer:
-| explorer.exe .
+ explorer.exe .
 
 
 github allows the publishing of static pages associated with a particular repository (called project pages), which you can read more about at http://pages.github.com/,
