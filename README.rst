@@ -2,10 +2,6 @@
 Set up GUI in Ubuntu LTS
 *************************
 
-subsubtitle
-**********************
-
-
 How to set up GUI in Ubuntu LTS
 ####################################
 
@@ -34,20 +30,21 @@ Install Desktop Environment for WSL
 ******************************************
  - XFCE4, KDE, GNOME, LXDE, Cinnamon, MATE, etc.
 
-In ubuntu WSL
-~~~
-$ sudo apt-get install xfce4
-$ echo 'export DISPLAY=:0.0' >> ~/.bashrc 
-~~~
+In ubuntu WSL <Br>
+.. code-block:: linux   
+$ sudo apt-get install xfce4  <Br>
+$ echo 'export DISPLAY=:0.0' >> ~/.bashrc <Br>   
+
+
 Exit and re-run ubuntu and start!
-~~~
+
 $ startxfce4
-~~~
+
 
 In Bash, open Windows File Explorer:
-~~~
+<Br>
 explorer.exe .
-~~~
+<Br>
 
 
 github allows the publishing of static pages associated with a particular repository (called project pages), which you can read more about at http://pages.github.com/,
