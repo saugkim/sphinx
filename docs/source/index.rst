@@ -9,9 +9,8 @@ Welcome to Sphinx_PDF's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-   
-   includeme
 
+.. include:: ../../README.rst
 
 
 Indices and tables
@@ -19,4 +18,3 @@ Indices and tables
 
 * :ref:`genindex`
 * :ref:`modindex`
-* :ref:`search`
