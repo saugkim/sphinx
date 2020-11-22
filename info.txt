@@ -1,0 +1,56 @@
+when sphinx build success! (by cmake or manually)
+
+move to html directory
+check branch is gh-pages
+current path should be html
+
+if not, make it
+
+cd build/html
+git branch
+
+git add *
+git commit -m "rebuilt the page"
+git push origin gh-pages
+
+check again, directory and branch name!!
+
+the github repository is git@github.com:saugkim/sphinx.git html
+
+
+************************************************
+
+how to setup this build page? only once for initial setup
+
+completely exit from source repository!
+in outside of the source repo,
+
+mkdir build (whatever name to build the site)
+cd build
+git init
+git clone git@github.com:saugkim/sphinx.git html
+go to html
+git branch gh-pages
+
+git symbolic-ref HEAD  refs/heads/gh-pages
+rm .git/index
+git clean -fdx
+
+git branch (confirm branch on gh-pages)
+
+--> Edit Makefile in source directory and change build location 
+default is BUILDDIR = build
+to 	   BUILDDIR = ../../build
+ 
+--> build in local repository (by cmake or manually sphinx-build)
+mingw32-make (in Anaconda console in my case)
+
+cd build/html
+git add .
+git commit -m "first built"
+git pushs origin gh-pages
+
+cd build/html
+touch .nojekyll
+git add .nojekyll
+git commit -m "added .nojekyll"
